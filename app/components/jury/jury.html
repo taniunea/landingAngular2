@@ -1,0 +1,32 @@
+<section class="jury" id="jury">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="motto">
+                    <div class="divider_pink"></div>
+                    <div class="title">jury</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li *ngFor="let juryMember of juryMembers">
+                    <div class="col-md-4 col-xs-6 mobile">
+                        <div class="hovereffect"> 
+                            <img class="img-responsive" [src]="juryMember.source" [alt]="juryMember.name"/>
+                            <div class="overlay">
+                                <p class="paragraph_white"> {{juryMember.descriptionHeader}} </p>
+                                <p class="paragraph_white-xs"> {{juryMember.descriptionContent}} </p>
+                            </div>
+                            <div>
+                                <p class="text__absolute"> {{ juryMember.name }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

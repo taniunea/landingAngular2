@@ -1,0 +1,89 @@
+/*section header*/
+.divider_pink {
+    display: inline-block;
+    width: 30px;
+	border-bottom: 5px solid rgb(248, 53, 121);
+    margin: 20px auto 0 auto;
+}
+
+.motto {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.title {
+	color: rgb(248, 53, 121); 
+	font-size: 42px;
+	text-transform: capitalize;
+}
+
+/*style section*/
+.about {
+	padding-bottom: 50px;
+}
+
+.sidebar {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.conditions__video {
+	background-color: rgb(255, 255, 255);
+	margin: 0 auto;
+}
+
+.conditions__video-img {
+	background-image: url("/images/conditions__video.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.timeline__item {
+	padding: 15px 0;
+	border-top: 1px solid rgb(255, 255, 255);
+	margin: 0 15px;
+}
+
+
+.about__video {
+	padding-top: 30px;
+}
+
+
+.paragraph {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0.7);
+	padding-bottom: 15px;
+}
+
+.paragraph_grey {
+	font-size: 14px;
+	font-style: italic;
+	color: rgba(0,0,0,0.4);
+}
+
+.text-grey {
+	font-size: 18px;
+}
+
+.spacing {
+	padding: 25px 20px;
+}
+
+.button__play {
+	display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 auto;
+	
+}
+
+.glyphicon-play:before {
+    color: white;
+    font-size: 42px;
+    cursor: pointer;

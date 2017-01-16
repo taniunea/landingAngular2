@@ -1,0 +1,45 @@
+<nav>
+    <div class="navigation navbar-inverse" data-spy="affix" data-offset-top="700">
+        <div class="navigation__logo">
+            <a href="#header">
+                <img src="images/logo.png" alt="brand-logo" class="navigation__logo-image" />
+            </a>
+        </div>
+
+        <div class="navigation__menu js-silky-smooth">
+        	<a *ngFor="let menuItem of menuItems" [href]="menuItem.url" class="navigation__menu-item">{{menuItem.item}}</a>
+        </div>
+
+        <div class="navigation__search">
+            <form class="navbar-form navbar-left js-search">
+                <div class="form-group">
+                  <input id="basics" type="text" class="form-control-navbar" placeholder="Search" />
+                </div>
+            </form>
+        </div>
+
+        <!-- Navicon -->
+        <div class="navigation__navicon dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#9776;
+        </div>
+        <ul class="dropdown-menu extendable-menu js-silky-smooth">
+            <li class="navigation__menu-item-navicon">
+                <a href="#about">about</a>
+            </li>
+            <li>
+                <a href="#jury" class="navigation__menu-item-navicon">jury</a>
+            </li>
+            <li>
+                <a href="#submissions" class="navigation__menu-item-navicon">submissions</a>
+            </li>
+            <li>
+                <a href="#news" class="navigation__menu-item-navicon">news</a>
+            </li>
+            <li>
+                <a href="#partners" class="navigation__menu-item-navicon">partners</a>
+            </li>
+            <li>
+                <a href="#contacts" class="navigation__menu-item-navicon">contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
